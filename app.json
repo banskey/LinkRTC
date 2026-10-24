@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "LinkRTC",
+    "slug": "trial-matcher",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0F7B7B"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.trialmatcher.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0F7B7B"
+      },
+      "package": "com.trialmatcher.app",
+      "usesCleartextTraffic": true,
+      "permissions": ["INTERNET"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": []
+  }
+}
